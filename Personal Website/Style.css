@@ -47,3 +47,24 @@ h2 {
 h3 {
   font-family: serif;
 }
+
+@font-face {
+  font-family: Cool;
+  src: url('Gill-Sans-Light-Shadowed.ttf');
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Code No Longer in Use
+
+ a.menubar {
+background-color: #EEEEEE;
+color: #333333;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;
+} */
