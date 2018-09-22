@@ -1,0 +1,49 @@
+a.menubarbutton {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 8px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+a.menubarbutton:hover {
+  box-shadow: 7px 7px 5px grey;
+  opacity: 1;
+  transition: 1s
+}
+
+img {
+  float: left;
+  margin: 10px;
+  border-style: dashed
+  border-width: 10px;
+}
+body {
+  background: powderblue;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: serif;
+}
+
+h3 {
+  font-family: serif;
+}
