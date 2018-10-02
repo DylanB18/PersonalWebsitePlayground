@@ -1,70 +1,57 @@
-a.menubarbutton {
-  position: relative;
-  background-color: #4CAF50;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 8px;
-  width: 200px;
-  text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-  opacity: 0.8;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <!---Stylesheet--->
 
-a.menubarbutton:hover {
-  box-shadow: 7px 7px 5px grey;
-  opacity: 1;
-  transition: 1s
-}
+    <script src="Crash.js" type="text/javascript"/>
+    <LINK href="Style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <!---Menubar--->
+    <a class="menubarbutton" href="index.html">Home</a>
+    <a class="menubarbutton" href="Fun-Stuff.html">Fun Stuff</a>
+    <a class="menubarbutton" href="Hobbies.html">Hobbies</a>
+    <a class="menubarbutton" href="Student.html">Student Information</a>
+    <h1 class=display-3>What I'm doing at CCHS</h1>
+    <a class="btn btn-primary" data-toggle="collapse" href="#myclasses" role="button" aria-expanded="false" aria-controls="collapseExample">
+      My Classes </a>
+    <div class="collapse" id="myclasses">
+      <div class="card card-body">
+        <ol>
+          <li>Coding with Mr.Martin</li>
+          <li>AP Human Geo. with Mr.Hinely</li>
+          <li>Chemistry Honors with Ms.Agnew</li>
+          <li>Spanish 1 with Senorita Roberts</li>
+          <li>DECA with Ms.Snider</li>
+          <li>AP (Just kidding) Study Hall with Ms.Bullard</li>
+          <li>English 1 Gifted with Ms.Jones</li>
+          <li>Algebra 2 with Mr.Sodergren</li>
+        </ol>
+      </div>
+    </div>
+    <br/>
 
-img {
-  float: left;
-  margin: 10px;
-  border-style: dashed
-  border-width: 10px;
-}
-body {
-  background: powderblue;
-}
-
-p {
-  color: black;
-}
-
-h1 {
-  font-weight: bold;
-  text-align: center;
-}
-
-h2 {
-  font-family: serif;
-}
-
-h3 {
-  font-family: serif;
-}
-
-@font-face {
-  font-family: Cool;
-  src: url('Gill-Sans-Light-Shadowed.ttf');
-}
-
-body, html {
-  height: 100%;
-}
-
-/* Code No Longer in Use
-
- a.menubar {
-background-color: #EEEEEE;
-color: #333333;
-padding: 2px 6px 2px 6px;
-border-top: 1px solid #CCCCCC;
-border-right: 1px solid #333333;
-border-bottom: 1px solid #333333;
-border-left: 1px solid #CCCCCC;
-} */
+    <a class="btn btn-primary" data-toggle="collapse" href="#myclubs" role="button" aria-expanded="false" aria-controls="collapseExample">
+    My Clubs </a>
+    <div class="collapse" id="myclubs">
+      <div class="card card-body">
+      <h3>My Clubs</h3>
+      <ol>
+        <li>DECA is also a club</li>
+        <li>Mu Alpha Theta</li>
+        <li>Model UN</li>
+        <li>Speech and Debate</li>
+        <li>Jewish Student's Union</li>
+        <li>Student Government Association</li>
+        <li>Possibly a political club of my own... We're looking for a sponsor.</li>
+      </ol>
+      </div>
+    </div>
+  </body>
+</html>
